@@ -1,0 +1,16 @@
+<doctype html>
+<html>
+<head>
+    <title>Hub Testing</title>
+    <% scripts = @getBlock("scripts") %>
+    <% scripts.add(["/vendor/jquery/dist/jquery.min.js"]) %>
+    <% scripts.add(["/vendor/signalr/jquery.signalR.min.js","https://nuget-rai.bfgdev.com/api/signalr/hubs","/js/signal_monitor.js"]) %>
+</head>
+<body>
+  <div id="content">
+    <%- @content %>
+  </div>
+
+  <%- scripts.toHTML() %>
+</body>
+</html>

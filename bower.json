@@ -1,0 +1,6 @@
+{
+  "name": "hub",
+  "dependencies": {
+    "signalr": "~2.0"
+  }
+}

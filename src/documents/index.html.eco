@@ -1,0 +1,9 @@
+--- yaml
+layout: 'default'
+---
+
+<h1>Testing SignalR Feedback</h1>
+
+<div id="stati">
+
+</div>
